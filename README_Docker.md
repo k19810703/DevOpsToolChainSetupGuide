@@ -23,6 +23,9 @@ OS：ubuntu
 
 ### 初始化jira
 
-打开
-http://服务器ip:8080
-按下图进行
+打开http://服务器ip:8080可见下图
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jira1.png)
+选择"I will setup myself" 按next
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jira2.png)
+如图配置，密码数据库密码如有更改自行修改其他
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jira3.png)

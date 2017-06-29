@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739e3556-534f-4e9d-ba0d-b6fa582557dc" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/jira1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/jira2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/jira3.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker.md" afterPath="$PROJECT_DIR$/README_Docker.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Normal.md" afterPath="$PROJECT_DIR$/README_Normal.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,9 +50,9 @@
       <file leaf-file-name="README_Docker.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README_Docker.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="405">
-                <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="435">
+                <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -265,12 +266,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498643383666</updated>
       <workItem from="1498643385445" duration="790000" />
-      <workItem from="1498722824171" duration="1410000" />
+      <workItem from="1498722824171" duration="1821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2200000" />
+    <option name="totallyTimeSpent" value="2611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="694" extended-state="0" />
@@ -384,9 +385,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README_Docker.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="435">
+            <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
             <folding />
           </first_editor>
           <second_editor />
