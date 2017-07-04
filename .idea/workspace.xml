@@ -60,8 +60,8 @@
         <entry file="file://$PROJECT_DIR$/README_Docker.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="109" lean-forward="false" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="109" />
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="93" lean-forward="false" selection-start-line="8" selection-start-column="93" selection-end-line="8" selection-end-column="93" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -319,12 +319,12 @@
       <updated>1498643383666</updated>
       <workItem from="1498643385445" duration="790000" />
       <workItem from="1498722824171" duration="5267000" />
-      <workItem from="1499153928443" duration="1254000" />
+      <workItem from="1499153928443" duration="1314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7311000" />
+    <option name="totallyTimeSpent" value="7371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="0" />
@@ -546,8 +546,8 @@
     <entry file="file://$PROJECT_DIR$/README_Docker.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="109" lean-forward="false" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="109" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="93" lean-forward="false" selection-start-line="8" selection-start-column="93" selection-end-line="8" selection-end-column="93" />
             <folding />
           </first_editor>
           <second_editor />
