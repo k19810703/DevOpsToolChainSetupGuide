@@ -1,4 +1,4 @@
-# DevOps工具链配置教程Docker版
+# Jira安装
 
 ### 构建jira
 <pre><code>docker run --name jira -d --link devopstoolchaindb:jiradb --volume "{yourjiraconfigpath}:/var/atlassian/jira" --publish 8080:8080 cptactionhank/atlassian-jira-software:latest
