@@ -1,31 +1,35 @@
-# DevOps工具链配置教程Docker版
-<pre><code>docker run -d --publish 443:443 --publish 8203:8203 --publish 9000:22 --name gitlab --restart always --link devopstoolchaindb:gitlabdb --link jira:jira --volume {config目录}:/etc/gitlab --volume {log目录}:/var/log/gitlab --volume {data目录}:/var/opt/gitlab gitlab/gitlab-ce:latest
+# Jenkins安装
+
+启动jenkins
+<pre><code>docker run -d --name jenkins --link gitlab:gitlab -v {jenkins配置目录}:/var/jenkins_home -p 8081:8080 -p 50000:50000 jenkins
 </code></pre>
-{xxx目录}请各自指定你server上个目录以存放相关文件<br>
-<pre><code>cd {config目录}
-sudo chmod 777 gitlab.rb
-</code></pre>
-打开{config目录}下的gitlab.rb文件作如下改动<br>
-1   external_url
-<pre><code># external_url 'GENERATED_EXTERNAL_URL'
-</code></pre>
-改为
-<pre><code>external_url 'http://<服务器ip>:8203'
-</code></pre>
-2   gitlab_shell_ssh_port
-<pre><code># gitlab_rails['gitlab_shell_ssh_port'] = 22
-</code></pre>
-改为
-<pre><code>gitlab_rails['gitlab_shell_ssh_port'] = 9000
-</code></pre>
-保存更改后重启镜像
-<pre><code>docker restart gitlab
+{jenkins配置目录}请各自指定你server上个目录以存放相关文件<br>
+
+查看log
+<pre><code>docker logs -f jenkins
 </code></pre>
 
-启动成功后浏览器打开http://{服务器id}:8203看到如下画面时说明安装成功，如不是请稍等再试<br>
-在下面这个画面初始化你的root用户的密码<br>
-![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/gitlab1.png)
-密码初始化成功后可见如下画面，用root和刚初始化完的密码进行登录
-![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/gitlab2.png)
-看到以下画面的话，gitlab就安装成功了
-![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/gitlab3.png)
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkins0.png)
+复制下上图红框部分的密码
+
+打开http://<服务器url>:8081
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkins1.png)
+黏贴密码，点continue后出现下图的配置画面，just wait
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkins2.png)
+出现下图
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkins3.png)
+IBM环境下可以连接外网，但是jenkins不知为何判断为没有internet连接，点configur proxy配置代理<br>
+IBM环境代理：9.139.246.81:8080 , 填完点advanced
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkins4.png)
+输个UTL进行测试，通过后保存继续
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkins5.png)
+出现下图的配置画面，just wait
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkins6.png)
+出现下图点左边那个
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkins7.png)
+奋力安装中
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkins8.png)
+创建admin账号
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkins9.png)
+搞定
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkins10.png)
