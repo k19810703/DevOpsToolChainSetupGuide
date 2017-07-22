@@ -10,11 +10,8 @@
 
 # Ex 1: Ungrouped hosts, specify before any group headers.
 
-172.17.0.1
-#green.example.com
-#blue.example.com
-#192.168.100.1
-#192.168.100.10
+[webserver]
+172.17.0.1 ansible_connection=ssh ansible_ssh_user=blockchain
 
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 

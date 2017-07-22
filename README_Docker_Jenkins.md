@@ -7,13 +7,22 @@ clone本工程(如果已经clone过，略过此步)
 <pre><code>git clone git@github.ibm.com:wuhd/DevOpsToolChainSetupGuide.git
 </code></pre>
 
-
+编辑./jenkins/hosts文件，默认docker环境部署下无需更改，hosts文件里添加了host机的ip 172.17.0.1，特殊情况请自行添加修改
 <pre><code>cd DevOpsToolChainSetupGuide
 docker build -t bkfmjenkins .
 </code></pre>
 
+在ibm环境也可以直接拉取镜像
+<pre><code>docker pull blockchain-03.cn.ibm.com:5000/bkfmjenkins
+</code></pre>
+
 ##  2.启动
+编辑镜像的情况下
 <pre><code>docker run -d --name jenkins --link gitlab:gitlab -v {jenkins配置目录}:/var/jenkins_home -p 8081:8080 -p 50000:50000 bkfmjenkins
+</code></pre>
+
+拉取镜像的情况下
+<pre><code>docker run -d --name jenkins --link gitlab:gitlab -v {jenkins配置目录}:/var/jenkins_home -p 8081:8080 -p 50000:50000 blockchain-03.cn.ibm.com:5000/bkfmjenkins
 </code></pre>
 {jenkins配置目录}请各自指定你server上个目录以存放相关文件<br>
 
@@ -46,31 +55,19 @@ IBM环境代理：9.139.246.81:8080 , 填完点advanced
 搞定
 ![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkins10.png)
 
-##  3 配置jenkins镜像的ansible
-登录到jenkins镜像
-<pre><code>docker exec -it jenkins bash
+##  3 添加ssh key到host机
+<pre><code>bash addsshkey.sh
 </code></pre>
-
-生成ssh证书
-<pre><code>docker exec -it jenkins bash
-</code></pre>
-
-添加ssh证书实现免密码登录
-ssh-keygen
-
-客户端运行
-ssh-keygen
-生成ssh key
-
-copy /root/.ssh/id_rsa.pub 到服务器
-
-服务器端
-cd ~/.ssh
-
-cat id_rsa.pub >> authorized_keys
-
-chmod 600 authorized_keys
-chmod 700 ~/.ssh
-
 参考
 http://blog.csdn.net/permike/article/details/52386868
+
+测试
+<pre><code>docker exec -it jenkins bash
+ansible all -m ping -u {your_host_user} 
+</code></pre>
+出现如下信息测试通过
+<pre><code>172.17.0.1 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+</code></pre>
