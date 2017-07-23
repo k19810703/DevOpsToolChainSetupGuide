@@ -5,6 +5,8 @@
 ![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab2.png)
 ![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab3.png)
 ![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab4.png)
+用同样的方法安装另外2个必要插件，"JIRA Pipeline Steps"，"Pipeline Utility Steps"
+
 
 2 配置gitlab   
 登录gitlab，为jenkins创建用户

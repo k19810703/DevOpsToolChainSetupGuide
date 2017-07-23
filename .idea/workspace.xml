@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="739e3556-534f-4e9d-ba0d-b6fa582557dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker_DockerRegistry.md" afterPath="$PROJECT_DIR$/README_Docker_DockerRegistry.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker_GitLabInstall.md" afterPath="$PROJECT_DIR$/README_Docker_GitLabInstall.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker_GitLabJira.md" afterPath="$PROJECT_DIR$/README_Docker_GitLabJira.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker_GitLabUserGuide.md" afterPath="$PROJECT_DIR$/README_Docker_GitLabUserGuide.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker_Jenkins.md" afterPath="$PROJECT_DIR$/README_Docker_Jenkins.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker_JenkinsGitlab.md" afterPath="$PROJECT_DIR$/README_Docker_JenkinsGitlab.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker_jiracreateprj.md" afterPath="$PROJECT_DIR$/README_Docker_jiracreateprj.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker_jirainstall.md" afterPath="$PROJECT_DIR$/README_Docker_jirainstall.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker_mysqlinstall.md" afterPath="$PROJECT_DIR$/README_Docker_mysqlinstall.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,12 +18,51 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="90">
                 <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README_Docker_Jenkins.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README_Docker_Jenkins.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="964">
+                <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README_Docker_jiracreateprj.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README_Docker_jiracreateprj.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README_Docker_JenkinsGitlab.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README_Docker_JenkinsGitlab.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -62,11 +92,11 @@
         <option value="$PROJECT_DIR$/README_Docker_GitLabJira.md" />
         <option value="$PROJECT_DIR$/README_Docker_GitLabUserGuide.md" />
         <option value="$PROJECT_DIR$/README_Docker_Jenkins.md" />
-        <option value="$PROJECT_DIR$/README_Docker_JenkinsGitlab.md" />
         <option value="$PROJECT_DIR$/README_Docker_jiracreateprj.md" />
         <option value="$PROJECT_DIR$/README_Docker_jirainstall.md" />
         <option value="$PROJECT_DIR$/README_Docker_mysqlinstall.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/README_Docker_JenkinsGitlab.md" />
       </list>
     </option>
   </component>
@@ -99,7 +129,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -128,6 +157,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,7 +304,9 @@
       <workItem from="1500359670483" duration="3522000" />
       <workItem from="1500427866579" duration="596000" />
       <workItem from="1500431057305" duration="894000" />
-      <workItem from="1500680809293" duration="1580000" />
+      <workItem from="1500680809293" duration="1598000" />
+      <workItem from="1500740852722" duration="4000" />
+      <workItem from="1500781005172" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="edit">
       <created>1499607580488</created>
@@ -297,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500682281780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="edit">
+      <created>1500682550265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1500682550265</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32514000" />
+    <option name="totallyTimeSpent" value="33043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -313,7 +352,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26294822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -360,7 +399,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -371,7 +409,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="105">
             <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -382,7 +419,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -393,7 +429,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="105">
             <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -404,7 +439,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -415,7 +449,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="420">
             <caret line="28" column="89" lean-forward="false" selection-start-line="28" selection-start-column="89" selection-end-line="28" selection-end-column="89" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -426,7 +459,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="510">
             <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -437,7 +469,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="405">
             <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -458,7 +489,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -469,7 +499,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="105">
             <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -480,7 +509,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -491,7 +519,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="180">
             <caret line="12" column="115" lean-forward="false" selection-start-line="12" selection-start-column="115" selection-end-line="12" selection-end-column="115" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -502,7 +529,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -513,7 +539,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="165">
             <caret line="11" column="101" lean-forward="false" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="101" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -524,7 +549,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -535,7 +559,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="405">
             <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -556,7 +579,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="315">
             <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -567,7 +589,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -578,7 +599,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -609,7 +629,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="525">
             <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -620,7 +639,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="45">
             <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -638,7 +656,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="105">
             <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -659,7 +676,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -705,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,24 +735,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible/temp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible/temp" />
     <entry file="file://$PROJECT_DIR$/README_Docker_GitLabInstall.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="471">
             <caret line="42" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -749,7 +754,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="471">
             <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -760,7 +764,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="270">
             <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -771,18 +774,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="471">
             <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README_Docker_Jenkins.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="471">
-            <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -793,6 +784,47 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="471">
             <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README_Docker.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README_Docker_jirainstall.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="471">
+            <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README_Docker_Jenkins.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="964">
+            <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -813,41 +845,8 @@
     <entry file="file://$PROJECT_DIR$/README_Docker_JenkinsGitlab.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="471">
-            <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README_Docker.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="210">
-            <caret line="14" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README_Docker_jirainstall.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="471">
-            <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
             <folding />
           </first_editor>
           <second_editor />
