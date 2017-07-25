@@ -1,10 +1,16 @@
-# 数据库安装
+# ftp安装（非必须）
 
-
-该数据库将会被工具链上的各个工具使用
-<pre><code>docker run --name devopstoolchaindb -e MYSQL_ROOT_PASSWORD=123456 -p 3306:3306 -d mysql
+### 构建ftp服务
+<pre><code>docker run -it -d \
+--name ftp \
+-p 11021:21 \
+-e FTP_USER=ftpuser -e FTP_PASS=123456  \
+-v /home/blockchain/文档/ftproot:/data/ftpuser \
+-p 65000-65004:65000-65004 \
+-e PASV_MIN_PORT=65000 -e PASV_MAX_PORT=65004 \
+mcreations/ftp
 </code></pre>
-默认user为root，password为123456，如有需要请自行修改
+默认用户名ftpuser，密码123456
 
 Link
 * [Mysql安装](https://github.ibm.com/wuhd/DevOpsToolChainSetupGuide/blob/master/README_Docker_mysqlinstall.md)
