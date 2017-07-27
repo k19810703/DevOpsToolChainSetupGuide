@@ -1,6 +1,7 @@
 # DevOps工具链配置教程Docker版
-<pre><code>docker run -d --publish 443:443 --publish 8203:8203 --publish 9000:22 --name gitlab --restart always --link devopstoolchaindb:gitlabdb --link jira:jira --volume {config目录}:/etc/gitlab --volume {log目录}:/var/log/gitlab --volume {data目录}:/var/opt/gitlab gitlab/gitlab-ce:latest
+<pre><code>docker run -d --publish 443:443 --publish 8203:8203 --publish 9000:22 --name gitlab --restart always --link devopstoolchaindb:gitlabdb --link jira:{服务器ip或者域名} --volume {config目录}:/etc/gitlab --volume {log目录}:/var/log/gitlab --volume {data目录}:/var/opt/gitlab gitlab/gitlab-ce:latest
 </code></pre>
+{服务器ip或者域名}请指定到你服务器的ip或者域名，否则后期跟jira的连接会有问题<br>
 {xxx目录}请各自指定你server上个目录以存放相关文件<br>
 <pre><code>cd {config目录}
 sudo chmod 777 gitlab.rb
