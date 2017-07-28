@@ -20,7 +20,7 @@ sudo chmod 777 gitlab.rb
 <pre><code>gitlab_rails['gitlab_shell_ssh_port'] = 9000
 </code></pre>
 
-3   如果需要邮件通知
+3   如果需要邮件通知，下面这些默认注释掉的部分也需要改
 <pre><code>gitlab_rails['smtp_enable'] = true
 gitlab_rails['smtp_address'] = "{smtp_server_ip}"
 gitlab_rails['smtp_port'] = {smtp_server_port}
