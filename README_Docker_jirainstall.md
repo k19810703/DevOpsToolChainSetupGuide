@@ -33,7 +33,23 @@
 ![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jira10.png)
 ![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jira11.png)
 ![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jira12.png)
-至此初始化配置完成
+至此初始化配置完成<br>
+
+配置jira的邮件通知功能
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jiramail1.png)
+ibm环境请用如下配置，其他环境自行参考修改
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jiramail2.png)
+
+配置邮件转换成issue功能，通过该功能，jira会把邮箱内的邮件转换成特定的issue,方便工具链其他工具提交状态
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jiramail3.png)
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jiramail4.png)
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jiramail5.png)
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jiramail6.png)
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jiramail7.png)
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jiramail8.png)
+参考上面几个图根据自己的环境修改
+
+
 
 Link
 * [Mysql安装](https://github.ibm.com/wuhd/DevOpsToolChainSetupGuide/blob/master/README_Docker_mysqlinstall.md)

@@ -19,6 +19,16 @@ sudo chmod 777 gitlab.rb
 改为
 <pre><code>gitlab_rails['gitlab_shell_ssh_port'] = 9000
 </code></pre>
+
+3   如果需要邮件通知
+<pre><code>gitlab_rails['smtp_enable'] = true
+gitlab_rails['smtp_address'] = "{smtp_server_ip}"
+gitlab_rails['smtp_port'] = {smtp_server_port}
+gitlab_rails['smtp_user_name'] = "{username}"
+gitlab_rails['smtp_password'] = "{password}"
+</code></pre>
+
+
 保存更改后重启镜像
 <pre><code>docker restart gitlab
 </code></pre>
