@@ -30,6 +30,27 @@
 ![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab15.png)
 ![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab16.png)
 
+4 配置项目
+在jinkins创建项目
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab17.png)
+起个名字，指定giturl 选个认证方式
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab18.png)
+获取jenkins的api token<br>
+进入用户管理找到api token
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab19.png)
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab20.png)
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab21.png)
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab22.png)
+进入gitlab，项目的设置里添加webhook，填上jenkins的地址：http://{ip}:{port}/project/{projectname}<br>
+添加后进行测试
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab23.png)
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab24.png)
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab25.png)
+看到这个就成功了，这样设置完，当gitlab发生指定事件就会触发jenkins
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsgitlab26.png)
+
+
+
 Link
 * [Mysql安装](https://github.ibm.com/wuhd/DevOpsToolChainSetupGuide/blob/master/README_Docker_mysqlinstall.md)
 * [Jira安装](https://github.ibm.com/wuhd/DevOpsToolChainSetupGuide/blob/master/README_Docker_jirainstall.md)
