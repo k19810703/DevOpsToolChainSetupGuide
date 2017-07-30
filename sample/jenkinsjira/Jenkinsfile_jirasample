@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+    options {
+      gitLabConnection('gitlab')
+      gitlabCommitStatus(name: 'jenkins')
+    }
+    stages {
+        stage('Build & Publish') {
+            when {
+                not {branch 'master'}
+            }
+            steps {
+                echo "test start"
+                script {
+                    withEnv(['JIRA_SITE=jira']) {
+                        def testIssue = [fields: [
+                                                   project: [key: 'FP'],
+                                                   summary: 'New JIRA Created from Jenkins.',
+                                                   description: 'New JIRA Created from Jenkins.',
+                                                   //customfield_1000: 'customValue',
+                                                   // id or name must present for issueType.
+                                                   issuetype: [name: 'Bug']]]
+
+                        response = jiraNewIssue issue: testIssue
+
+                        echo response.successful.toString()
+                        }
+                }
+                echo "test end"
+            }
+        }
+    }
+}

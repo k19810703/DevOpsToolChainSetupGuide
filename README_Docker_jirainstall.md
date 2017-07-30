@@ -49,6 +49,10 @@ ibm环境请用如下配置，其他环境自行参考修改
 ![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jiramail8.png)
 参考上面几个图根据自己的环境修改
 
+### Sample
+java提交jira参考./sample/javajira<br>
+jenkins提交jira参考./sample/jenkinsjira ，jenkins需要如下配置<br> 
+![Image text](https://raw.githubusercontent.com/k19810703/myimages/master/jenkinsjira.png)
 
 
 Link
