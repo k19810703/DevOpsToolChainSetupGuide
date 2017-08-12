@@ -3,8 +3,9 @@
 本步骤非必须
 
 ##  1.部署
-<pre><code>docker run -d -p 5000:5000 --restart always --name dockerregistry registry:2
+<pre><code>docker run -d -p 5000:5000 --restart always -v {localfolder}:/var/lib/registry --name dockerregistry registry:2
 </code></pre>
+{localfolder}用于存放data
 
 ##  2.UserGuide
 
