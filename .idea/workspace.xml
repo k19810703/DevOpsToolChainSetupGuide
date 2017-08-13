@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="739e3556-534f-4e9d-ba0d-b6fa582557dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker.md" afterPath="$PROJECT_DIR$/README_Docker.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker_DockerRegistry.md" afterPath="$PROJECT_DIR$/README_Docker_DockerRegistry.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Docker_GitLabInstall.md" afterPath="$PROJECT_DIR$/README_Docker_GitLabInstall.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README_Docker.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README_Docker.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README_Docker.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -117,12 +116,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README_Docker_GitLabInstall.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README_Docker_GitLabInstall.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README_Docker_GitLabInstall.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="15">
-                <caret line="1" column="292" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="292" />
+                <caret line="1" column="192" lean-forward="false" selection-start-line="1" selection-start-column="192" selection-end-line="1" selection-end-column="192" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -166,12 +165,12 @@
         <option value="$PROJECT_DIR$/README_Docker_Jenkins.md" />
         <option value="$PROJECT_DIR$/README_Docker_jiracreateprj.md" />
         <option value="$PROJECT_DIR$/README_Docker_mysqlinstall.md" />
-        <option value="$PROJECT_DIR$/README_Docker_GitLabInstall.md" />
         <option value="$PROJECT_DIR$/README_Docker_JenkinsGitlab.md" />
         <option value="$PROJECT_DIR$/README_Docker_jirainstall.md" />
         <option value="$PROJECT_DIR$/sample/javajira/App.java" />
         <option value="$PROJECT_DIR$/README_Docker_DockerRegistry.md" />
         <option value="$PROJECT_DIR$/README_Docker.md" />
+        <option value="$PROJECT_DIR$/README_Docker_GitLabInstall.md" />
       </list>
     </option>
   </component>
@@ -203,6 +202,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,8 +268,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,7 +429,8 @@
       <workItem from="1501649867030" duration="208000" />
       <workItem from="1501943824423" duration="671000" />
       <workItem from="1502424122334" duration="284000" />
-      <workItem from="1502545056426" duration="281000" />
+      <workItem from="1502545056426" duration="305000" />
+      <workItem from="1502630191453" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="edit">
       <created>1499607580488</created>
@@ -509,11 +509,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501383038164</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="edit">
+      <created>1502547348288</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1502547348288</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40720000" />
+    <option name="totallyTimeSpent" value="40802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -522,17 +529,17 @@
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26294822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26294822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -982,17 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README_Docker_GitLabInstall.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="292" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="292" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README_Docker_Jenkins.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1020,6 +1016,17 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="240">
             <caret line="16" column="69" lean-forward="false" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README_Docker_GitLabInstall.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="192" lean-forward="false" selection-start-line="1" selection-start-column="192" selection-end-line="1" selection-end-column="192" />
             <folding />
           </first_editor>
           <second_editor />
