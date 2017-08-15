@@ -18,11 +18,11 @@ docker build -t bkfmjenkins .
 
 ##  2.启动
 编辑镜像的情况下
-<pre><code>docker run -d --name jenkins --link gitlab:gitlab -v {jenkins配置目录}:/var/jenkins_home -p 8081:8080 -p 50000:50000 bkfmjenkins
+<pre><code>docker run -d --name jenkins --link jira:jira --link gitlab:gitlab -v {jenkins配置目录}:/var/jenkins_home -p 8081:8080 -p 50000:50000 bkfmjenkins
 </code></pre>
 
 拉取镜像的情况下
-<pre><code>docker run -d --name jenkins --link gitlab:gitlab -v {jenkins配置目录}:/var/jenkins_home -p 8081:8080 -p 50000:50000 blockchain-03.cn.ibm.com:5000/bkfmjenkins
+<pre><code>docker run -d --name jenkins --link jira:jira --link gitlab:gitlab -v {jenkins配置目录}:/var/jenkins_home -p 8081:8080 -p 50000:50000 blockchain-03.cn.ibm.com:5000/bkfmjenkins
 </code></pre>
 {jenkins配置目录}请各自指定你server上个目录以存放相关文件<br>
 
@@ -61,7 +61,8 @@ IBM环境代理：9.139.246.81:8080 , 填完点advanced
 参考
 http://blog.csdn.net/permike/article/details/52386868
 
-测试
+测试，出现提示按yes
+
 <pre><code>docker exec -it jenkins bash
 ansible all -m ping -u {your_host_user} 
 </code></pre>
@@ -71,6 +72,12 @@ ansible all -m ping -u {your_host_user}
     "ping": "pong"
 }
 </code></pre>
+
+##  4 ansible 控制windows
+参考：<br>
+http://www.ansible.com.cn/docs/intro_windows.html<br>
+http://www.cnblogs.com/kingleft/p/6391652.html<br>
+
 
 Link
 * [Mysql安装](https://github.ibm.com/wuhd/DevOpsToolChainSetupGuide/blob/master/README_Docker_mysqlinstall.md)
