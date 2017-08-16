@@ -13,6 +13,9 @@
 [server03]
 172.17.0.1  ansible_connection=ssh ansible_ssh_user=blockchain
 
+[windows]
+9.197.12.70 ansible_ssh_port=5985 ansible_connection=winrm ansible_ssh_user="Yangxu Zou" ansible_ssh_pass=Def99xyz ansible_winrm_server_cert_validation=ignore
+
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 
 #[webservers]
