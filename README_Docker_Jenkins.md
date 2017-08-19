@@ -18,11 +18,11 @@ docker build -t bkfmjenkins .
 
 ##  2.启动
 编辑镜像的情况下
-<pre><code>docker run -d --name jenkins --link jira:jira --link gitlab:gitlab -v {jenkins配置目录}:/var/jenkins_home -p 8081:8080 -p 50000:50000 bkfmjenkins
+<pre><code>docker run -d --network toolchainnetwork  --name jenkins　-v {jenkins配置目录}:/var/jenkins_home -v {ansible_hosts配置目录}:/etc/ansible -p 8081:8080 -p 50000:50000 bkfmjenkins
 </code></pre>
 
 拉取镜像的情况下
-<pre><code>docker run -d --name jenkins --link jira:jira --link gitlab:gitlab -v {jenkins配置目录}:/var/jenkins_home -p 8081:8080 -p 50000:50000 blockchain-03.cn.ibm.com:5000/bkfmjenkins
+<pre><code>docker run -d --network toolchainnetwork  --name jenkins -v {jenkins配置目录}:/var/jenkins_home -v {ansible_hosts配置目录}:/etc/ansible -p 8081:8080 -p 50000:50000 blockchain-03.cn.ibm.com:5000/bkfmjenkins
 </code></pre>
 {jenkins配置目录}请各自指定你server上个目录以存放相关文件<br>
 

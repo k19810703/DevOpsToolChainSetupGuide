@@ -1,7 +1,7 @@
 # Jira安装
 
 ### 构建jira
-<pre><code>docker run --name jira -d --link devopstoolchaindb:jiradb --volume "{yourjiraconfigpath}:/var/atlassian/jira" --publish 8080:8080 cptactionhank/atlassian-jira-software:latest
+<pre><code>docker run --name jira -d --network toolchainnetwork --link devopstoolchaindb:jiradb --volume "{yourjiraconfigpath}:/var/atlassian/jira" --publish 8080:8080 cptactionhank/atlassian-jira-software:latest
 </code></pre>
 {yourjiraconfigpath}:请指定到host机的路径，jira的config文件会被存放到这里
 

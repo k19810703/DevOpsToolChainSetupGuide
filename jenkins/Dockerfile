@@ -8,4 +8,4 @@ RUN apt-get update \
 && python /get-pip.py \
 && pip install http://github.com/diyan/pywinrm/archive/master.zip#egg=pywinrm
 ADD hosts /etc/ansible/
-
+VOLUME ["/etc/ansible"]
