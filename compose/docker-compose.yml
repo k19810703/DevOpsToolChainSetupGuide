@@ -1,0 +1,64 @@
+version: '2'
+services:
+  devopsdb:
+    image: blockchain-03.cn.ibm.com:5002/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=${toolchaindbpassword}
+      - MYSQL_DATABASE=jiradb
+    volumes:
+      - ${devopsdbdata}:/var/lib/mysql
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - 3306:3306
+  jira:
+    image: blockchain-03.cn.ibm.com:5002/atlassian-jira-software
+    ports:
+      - 8080:8080
+    volumes:
+      - ${jiraconfig}:/var/atlassian/jira
+      - /etc/localtime:/etc/localtime:ro
+  gitlab:
+    image: blockchain-03.cn.ibm.com:5002/gitlab-ce
+    ports:
+      - 8203:8203
+      - 443:443
+      - "9000:22"
+    link:
+      - jira:blockchain-03.cn.ibm.com
+    volumes:
+      - ${gitlabconfig}:/etc/gitlab
+      - ${gitlablog}:/var/log/gitlab
+      - ${gitlabdata}:/var/opt/gitlab
+  jenkins:
+    image: blockchain-03.cn.ibm.com:5002/bkfmjenkins
+    ports:
+      - 8081:8080
+      - 50000:50000
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${jenkinsdata}:/var/jenkins_home
+      - ${ansiblehost}:/etc/ansible
+  dockerregistry:
+    image: blockchain-03.cn.ibm.com:5002/registry:2.3.1
+    ports:
+      - 5000:5000
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${dockerregistry}:/var/lib/registry
+  webautoui:
+    image: blockchain-03.cn.ibm.com:5002/webautouiimage
+    ports:
+      - "82:6001"
+    volumes:
+      - ${webautoinput}:/usr/src/chanceauto/public/input
+      - ${webautooutput}:/usr/src/chanceauto/public/output
+      - /etc/localtime:/etc/localtime:ro
+    link:
+      - mysqldocker
+  webautodb:
+    image: blockchain-03.cn.ibm.com:5002/webautodbimage
+    ports:
+      - 5000:5000
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${webautodbdata}:/var/lib/mysql
